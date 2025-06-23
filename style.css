@@ -264,6 +264,7 @@ html {
     display: flex;
     align-items: center;
     padding-left: 75px;
+    border: 1px solid red;
 }
 .social__info {
     width: 645px;
@@ -287,4 +288,57 @@ html {
 .social__decor-image {
     width: 562px;
     height: 350px;
+}
+
+
+.personal {
+    position: relative;
+    height: 1157px;
+    padding-top: 136px;
+    border: 1px solid red;
+}
+.personal__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
+.personal__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.personal__title {
+    font-weight: 400;
+    font-size: 61px;
+    line-height: 136%;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+}
+.personal__description {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 145%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+.personal__info-line {
+    width: 120px;
+    height: 5px;
+    margin-top: 36px;
+    margin-bottom: 34px;
+    background: #ff4343;
+}
+.personal__block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 88px;
+    width: 1320px;
+    border: 1px solid red;
+}
+.personal__block-slide {
+    gap: 165px;
 }
