@@ -117,6 +117,7 @@ html {
     letter-spacing: 0.02em;
     margin-top: 73px;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
 }
 .button:hover {
     transform: scale(1.05);
@@ -263,7 +264,6 @@ html {
     display: flex;
     align-items: center;
     padding-left: 75px;
-    border: 1px solid red;
 }
 .social__info {
     width: 645px;
@@ -294,14 +294,12 @@ html {
     position: relative;
     height: 1157px;
     padding-top: 136px;
-    border: 1px solid red;
 }
 .personal__content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
 }
 .personal__info {
     display: flex;
@@ -342,7 +340,6 @@ html {
 .reviews {
     position: relative;
     height: 1462px;
-    border: 1px solid red;
 }
 .reviews__content {
     display: flex;
@@ -350,7 +347,6 @@ html {
     justify-content: center;
     align-items: center;
     margin-top: 180px;
-    border: 1px solid red;
 }
 .reviews__spoiler {
     font-weight: 400;
@@ -387,14 +383,12 @@ html {
 .course {
     position: relative;
     height: 825px;
-    border: 1px solid red;
 }
 .course__content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
 }
 .course__first-block {
     display: flex;
@@ -434,13 +428,12 @@ html {
 .features {
     position: relative;
     height: 979px;
-    border: 1px solid red;
+    background: #0a0a0a;
 }
 .features__content {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid red;
     padding-left: 75px;
 }
 .features__blocks {
@@ -500,6 +493,7 @@ html {
     letter-spacing: 0.02em;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     margin-top: 35px;
+    cursor: pointer;
 }
 
 .features__button:hover {
@@ -508,4 +502,57 @@ html {
 }
 .features__image {
     width: 246px;
+}
+
+
+.footer {
+    background: #000;
+}
+.footer__content {
+    display: flex;
+    height: 433px;
+}
+.footer__logo {
+    margin-top: 120px;
+    margin-left: 75px;
+}
+.footer__block-social {
+    display: flex;
+    width: 838px;
+    height: 193px;
+    margin-top: 120px;
+    margin-left: 245px;
+    gap: 60px;
+}
+.footer__social-menu {
+    width: 164px;
+    height: 193px;
+}
+.footer__social-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 111%;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    margin-bottom: 48px;
+}
+.footer__social-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    letter-spacing: 0.01em;
+}
+.footer__social-link {
+    cursor: pointer;
+}
+.footer__social-link:hover {
+    color: #68fc97;
+    font-size: 17px;
+}
+.footer__social-links {
+    width: 164px;
+    height: 193px;
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
 }
