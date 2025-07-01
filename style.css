@@ -64,7 +64,6 @@ html {
     bottom: -5px;
     left: 0;
     height: 2px;
-    width: 0%;
     background-color: #000;
     transition: width 0.3s ease;
 }
@@ -107,7 +106,7 @@ html {
     color: rgba(255, 255, 255, 0.7);
     margin-top: 44px;
 }
-.hero__button {
+.button {
     border-radius: 8px;
     width: 281px;
     height: 66px;
@@ -119,7 +118,7 @@ html {
     margin-top: 73px;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-.hero__button:hover {
+.button:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(244, 68, 68, 0.3);
 }
@@ -337,8 +336,176 @@ html {
     justify-content: space-between;
     margin-top: 88px;
     width: 1320px;
+}
+
+
+.reviews {
+    position: relative;
+    height: 1462px;
     border: 1px solid red;
 }
-.personal__block-slide {
-    gap: 165px;
+.reviews__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+    border: 1px solid red;
+}
+.reviews__spoiler {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 109%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #8bffb0;
+}
+.reviews__title {
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 143%;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-top: 10px;
+}
+.reviews__description {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 145%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 25px;
+}
+.reviews__image {
+    width: 940px;
+    height: 834px;
+    margin-top: 70px;
+}
+
+
+.course {
+    position: relative;
+    height: 825px;
+    border: 1px solid red;
+}
+.course__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
+.course__first-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    width: 1120px;
+    height: 433px;
+    background: #1d1b24;
+}
+.course__title {
+    font-weight: 400;
+    font-size: 63px;
+    line-height: 144%;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-top: 66px;
+}
+.course__description {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 135%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 30px;
+}
+.course__button {
+    margin-top: 70px;
+}
+.course__decor-image {
+    display: flex;
+    margin-top: 70px;
+}
+
+
+.features {
+    position: relative;
+    height: 979px;
+    border: 1px solid red;
+}
+.features__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid red;
+    padding-left: 75px;
+}
+.features__blocks {
+    display: flex;
+    gap: 60px;
+}
+.features__title {
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 121%;
+    letter-spacing: 0.03em;
+    margin-top: 170px;
+}
+.features__info-block {
+    display: flex;
+    margin-top: 110px;
+}
+.features__info {
+    width: 369px;
+    border-radius: 0 10px 10px 0;
+    padding-left: 30px;
+    background: #85e9a5;
+    border-top: 5px solid #5b5b5b;
+
+}
+.features__spoiler {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 167%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #95fec1;
+    margin-top: 30px;
+}
+.features__info-title {
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 124%;
+    letter-spacing: 0.01em;
+    margin-top: 17px;
+}
+.features__description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 137%;
+    letter-spacing: 0.03em;
+    margin-top: 23px;
+}
+.features__button {
+    border-radius: 8px;
+    width: 281px;
+    height: 66px;
+    background: #8bffb0;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 115%;
+    letter-spacing: 0.02em;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-top: 35px;
+}
+
+.features__button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgb(43, 105, 62);
+}
+.features__image {
+    width: 246px;
 }
